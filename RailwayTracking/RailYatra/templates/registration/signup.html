@@ -1,11 +1,11 @@
-{% extends 'RailYatra/base.html' %}
+{% extends 'registration/login-base.html' %}
 {% block title %}Create a New Account {% endblock %}
 {% block albums_active %}active {% endblock %}
 
 {% block body  %}
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-12 col-md-7">
+        <div class="col-sm-4 col-md-6">
             <div class="panel panel=default">
                 <div class="panel-body">
                     <form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
@@ -13,7 +13,7 @@
                         {% include 'RailYatra/form-template.html' %}
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-success">Submit</button>
+                                <button type="submit" class="btn btn-success">Sign Up</button>
                             </div>
                         </div>
 
